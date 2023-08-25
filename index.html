@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="h2">Todo App</h2>
+        <div class="container2">
+            <div class="left">
+                <select name="" id="s" onchange="check()">
+                    <option value="0">To do</option>
+                    <option value="1">Done</option>
+                    <option value="2">All</option>
+                </select>
+                <div id="list">
+                    <div class="li">
+                        <button onclick="done(0)">done</button>
+                        <button onclick="edit(0)">edit</button>
+                        <button onclick="del(0)">delete</button>asdjf</div>
+                    </div>
+                </div>
+                <div class="right">
+                    <textarea name="" id="txt" cols="25" rows="10"></textarea>
+                    <button onclick="add()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+    </html>

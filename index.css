@@ -1,0 +1,33 @@
+*{border-radius: 3px;
+color:whitesmoke;
+}
+body{
+    background-color: navy;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+select,option,.li,button,textarea{
+    color:black
+}
+.left{
+    background-color: orange;
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+}
+.right{
+    background-color: orange;
+    padding: 10px;
+    width: 20%;
+    margin: 10px;
+    color:black
+}
+.right button{ 
+    width:100%;
+}
+.li{
+    margin: 5px;
+    background-color: white;
+}
