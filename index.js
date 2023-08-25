@@ -16,7 +16,8 @@ if(i==0){
         document.getElementById('list').innerHTML += ` <div class="li">
         <button onclick="done(${i})">done</button>
         <button onclick="edit('t${i}')">edit</button>
-        <button onclick="del('t${i}')">delete</button>${todoArr[i]}</div>
+        <button onclick="del('t${i}')">delete</button>
+        <div class='msg'>${todoArr[i]}</div></div>
     </div>`
     }
 }else if(i==1){
@@ -24,7 +25,8 @@ if(i==0){
         document.getElementById('list').innerHTML += ` <div class="li">
         <button onclick="redo(${i})">redo</button>
         <button onclick="edit('d${i}')">edit</button>
-        <button onclick="del('d${i}')">delete</button>${doneArr[i]}</div>
+        <button onclick="del('d${i}')">delete</button>
+        <div class='msg'>${doneArr[i]}</div></div>
         </div>`
     } 
 }else{
@@ -32,14 +34,16 @@ if(i==0){
         document.getElementById('list').innerHTML += ` <div class="li">
         <button onclick="done(${i})">done</button>
         <button onclick="edit('t${i}')">edit</button>
-        <button onclick="del('t${i}')">delete</button>${todoArr[i]}</div>
+        <button onclick="del('t${i}')">delete</button>
+        <div class='msg'>${todoArr[i]}</div></div>
         </div>`
     }
     for(let i=0;i<doneArr.length;i++){
         document.getElementById('list').innerHTML += ` <div class="li">
         <button onclick="redo(${i})">redo</button>
         <button onclick="edit('d${i}')">edit</button>
-        <button onclick="del('d${i}')">delete</button>${doneArr[i]}</div>
+        <button onclick="del('d${i}')">delete</button>
+        <div class='msg'>${doneArr[i]}</div></div>
         </div>`
     } 
 }

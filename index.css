@@ -11,6 +11,11 @@ body{
 select,option,.li,button,textarea{
     color:black
 }
+.msg{
+    color:black;
+    display: inline-block;
+    padding-left: 10px;
+}
 .left{
     background-color: orange;
     padding: 10px;
