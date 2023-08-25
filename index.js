@@ -5,8 +5,8 @@ const intro = (e)=>{
 }
 setTimeout(intro , 500 , true)
 
-let todoArr=["kuch toh karle yar" , "sciebce home work kiya kya" , "chal free fire khelenge"]
-let doneArr=["mathematics home work"]
+let todoArr=[]
+let doneArr=[]
 let editMode = ""
 
 const set=(i)=>{
